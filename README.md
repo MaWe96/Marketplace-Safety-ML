@@ -20,13 +20,12 @@ Vi jämför olika modeller i stratifierad Kfold split på träningsdata, och rik
 ## Ansvarsfördelning
 | Ansvarsområde | Ansvarig |
 | -------------------- | ------------ |
-| Dataförståelse | . |
-| Pipeline & preprocess | . |
-| Modelljämförelse | . |
-| Optimering | . |
-| Prioritering | . |
-| Pitch & Risker | . |
-| ------------------- | ----------- |
+| Dataförståelse | Hamed |
+| Pipeline & preprocess | Hamed |
+| Modelljämförelse | Jazdan |
+| Optimering | Martin |
+| Prioritering | Martin |
+| Pitch & Risker | Jazdan |
 
 ## Hur projektet körs
 
