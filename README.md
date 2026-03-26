@@ -14,8 +14,10 @@ Vi jämför olika modeller i stratifierad Kfold split på träningsdata, och rik
 ## Resultat
 
 Förvirringsmatris med top-5% på ny data:
- [[1732   56]
- [ 171   41]]
+|                | Predicted: 0 | Predicted: 1 |
+|----------------|-------------:|-------------:|
+| Actual: 0      | 1732         | 56           |
+| Actual: 1      | 171          | 41           |
  
 Testet av tuned logistic regression på X_test & y_test (historic_data) gav precision 0.625. I deploy-test gavs 0.69 i precision (utan top-5%), sen för att öka recall kostar det en sänkning av precision till 0.42 men det fångas upp 32 flera sanna positiva misstänkta ärenden.
 
