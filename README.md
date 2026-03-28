@@ -3,7 +3,7 @@ Klassificeringsprojekt för marknadsplats-säkerhet; fokus på hög precision oc
 
 Modeller är jämförda via Cross Validation, sen är optimering mot precision gjord med vald modell, och top-5% misstänkta ärenden tas fram för arbetslaget. Träning görs på 9,600 rader och pipeline är sparad till joblib. Målet är pricksäkra flaggningar och hållbar daglig arbetsmängd.
 
-Modellen behövs ej tränas om utan kan implementeras på ny data dagligen. Test körs med resultaten hur många modellen prickade rätt, hur många falsklarm och missar som gjordes.
+Modellen kan implementeras på ny data. Test körs med resultaten hur många modellen prickade rätt, hur många falsklarm och missar som gjordes, samt mätvärdens prestation.
 
 ## Strategi
 
